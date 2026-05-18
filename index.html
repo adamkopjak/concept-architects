@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Concept Architects — Residential Architecture for Considered Living</title>
+<meta name="description" content="Concept Architects is an independent studio designing private residences, ateliers and retreats with restraint, craft and conviction.">
+<link rel="preload" href="assets/fonts/Realtime-Regular.otf" as="font" type="font/otf" crossorigin>
+<link rel="preload" href="assets/fonts/Realtime-Light.otf" as="font" type="font/otf" crossorigin>
+<link rel="preload" href="assets/fonts/Realtime-Bold.otf" as="font" type="font/otf" crossorigin>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<!-- ============================ LOADER ============================ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__bar"><span></span></div>
+  <div class="loader__mark">
+    <span class="loader__a">A</span>
+    <span class="loader__name">CONCEPT&nbsp;ARCHITECTS</span>
+  </div>
+  <div class="loader__pct"><span data-pct>00</span></div>
+</div>
+
+<!-- ============================ CURSOR ============================ -->
+<div class="cursor" aria-hidden="true">
+  <div class="cursor__dot"></div>
+  <div class="cursor__ring"></div>
+  <div class="cursor__label"></div>
+</div>
+
+<!-- ============================ NAV ============================ -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav__brand" data-cursor="brand" aria-label="Concept Architects — home">
+    <span class="nav__logo" aria-hidden="true"></span>
+  </a>
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#works" data-cursor="link"><span>01</span>Works</a>
+    <a href="#studio" data-cursor="link"><span>02</span>Studio</a>
+    <a href="#approach" data-cursor="link"><span>03</span>Approach</a>
+    <a href="#contact" data-cursor="link"><span>04</span>Contact</a>
+  </nav>
+  <a href="#contact" class="nav__cta" data-cursor="cta">
+    <span class="nav__cta-dot"></span>
+    <span class="nav__cta-text">Commission</span>
+  </a>
+  <button class="nav__burger" id="burger" aria-label="Menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+</header>
+
+<!-- ============================ MOBILE DRAWER ============================ -->
+<div class="drawer" id="drawer" aria-hidden="true">
+  <nav class="drawer__nav">
+    <a href="#works"><span>01</span>Works</a>
+    <a href="#studio"><span>02</span>Studio</a>
+    <a href="#approach"><span>03</span>Approach</a>
+    <a href="#contact"><span>04</span>Contact</a>
+  </nav>
+  <div class="drawer__foot">
+    <p>Štúdio · Bratislava — Dubai — Phuket</p>
+    <p><a href="mailto:studio@conceptarchitects.com">studio@conceptarchitects.com</a></p>
+  </div>
+</div>
+
+<!-- ============================ SMOOTH SCROLL WRAPPER ============================ -->
+<div id="scroll-root">
+<div id="scroll-content">
+
+<main id="top">
+
+<!-- ============================ HERO ============================ -->
+<section class="hero" data-screen-label="01 Hero">
+  <div class="hero__media">
+    <div class="hero__shutter" aria-hidden="true"></div>
+    <img src="assets/img/smetanova-05.jpg" alt="Smetanova Residence at dusk, Bratislava" class="hero__img" data-parallax="0.18">
+    <div class="hero__vignette"></div>
+  </div>
+
+  <div class="hero__copy">
+    <div class="hero__eyebrow">
+      <span class="hero__eyebrow-dot"></span>
+      <span>Independent practice · est. 2008</span>
+    </div>
+    <h1 class="hero__title">
+      <span class="line"><span class="line__in">Architecture</span></span>
+      <span class="line"><span class="line__in">that lives</span></span>
+      <span class="line italic"><span class="line__in">quietly,</span></span>
+      <span class="line"><span class="line__in">at a&nbsp;higher pitch.</span></span>
+    </h1>
+    <p class="hero__sub">
+      Concept Architects designs private residences, ateliers and resort retreats for clients who measure luxury in light, material and silence — not square metres.
+    </p>
+  </div>
+
+  <aside class="hero__meta">
+    <div class="hero__meta-row"><span>N 48°08'42"</span><span>E 17°06'17"</span></div>
+    <div class="hero__meta-row"><span>Currently</span><span data-clock>—</span></div>
+    <div class="hero__meta-row"><span>Now booking</span><span>Spring '27</span></div>
+  </aside>
+
+  <a href="#manifesto" class="hero__scroll" data-cursor="link" aria-label="Scroll to explore">
+    <span class="hero__scroll-label">Scroll</span>
+    <span class="hero__scroll-line"></span>
+  </a>
+
+  <div class="hero__index">
+    <span>01</span> / <span>04</span>
+  </div>
+</section>
+
+<!-- ============================ MARQUEE ============================ -->
+<section class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <div class="ticker__group">
+      <span>Restraint</span><span aria-hidden="true">✕</span>
+      <span>Material</span><span aria-hidden="true">✕</span>
+      <span>Light</span><span aria-hidden="true">✕</span>
+      <span>Proportion</span><span aria-hidden="true">✕</span>
+      <span>Silence</span><span aria-hidden="true">✕</span>
+      <span>Craft</span><span aria-hidden="true">✕</span>
+    </div>
+    <div class="ticker__group" aria-hidden="true">
+      <span>Restraint</span><span>✕</span>
+      <span>Material</span><span>✕</span>
+      <span>Light</span><span>✕</span>
+      <span>Proportion</span><span>✕</span>
+      <span>Silence</span><span>✕</span>
+      <span>Craft</span><span>✕</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ MANIFESTO ============================ -->
+<section class="manifesto" id="manifesto" data-screen-label="02 Manifesto">
+  <div class="manifesto__index">
+    <span>—— 00</span>
+    <span>Manifesto</span>
+  </div>
+  <h2 class="manifesto__text">
+    <span class="reveal-line"><span>We design buildings the way</span></span>
+    <span class="reveal-line"><span>a watchmaker designs a movement —</span></span>
+    <span class="reveal-line"><span><em>every</em> element resolved,</span></span>
+    <span class="reveal-line"><span>nothing decorative, nothing left</span></span>
+    <span class="reveal-line"><span>to a&nbsp;detail&nbsp;drawing.</span></span>
+  </h2>
+  <div class="manifesto__signoff">
+    <div>
+      <p class="manifesto__small">Practice based in Bratislava, with built projects across Slovakia, the UAE and South-East Asia.</p>
+    </div>
+    <div class="manifesto__sig">
+      <svg viewBox="0 0 200 60" aria-hidden="true">
+        <path d="M10 40 Q 30 5, 55 35 T 100 35 Q 130 50, 150 20 T 195 30" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+      </svg>
+      <span>Ing. arch. Peter Kopjak, founding architect</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ WORKS — INDEX ============================ -->
+<section class="works" id="works" data-screen-label="03 Works">
+  <div class="works__head">
+    <div class="works__index">
+      <span>—— 01</span>
+      <span>Selected Works</span>
+    </div>
+    <h2 class="works__h">
+      <span class="reveal-line"><span>Four houses,</span></span>
+      <span class="reveal-line"><span>four climates,</span></span>
+      <span class="reveal-line"><span>one&nbsp;sensibility.</span></span>
+    </h2>
+  </div>
+
+  <ul class="works__list" id="works-list">
+    <li class="works__row" data-target="#p-smetanova" data-preview="assets/img/smetanova-01.jpg">
+      <span class="works__num">01</span>
+      <span class="works__name">Smetanova Residence</span>
+      <span class="works__loc">Bratislava, SK</span>
+      <span class="works__year">2024</span>
+      <span class="works__arrow">→</span>
+    </li>
+    <li class="works__row" data-target="#p-cliff" data-preview="assets/img/cliff-01.jpg">
+      <span class="works__num">02</span>
+      <span class="works__name">Cliff House — H7</span>
+      <span class="works__loc">Adriatic Coast, HR</span>
+      <span class="works__year">2025</span>
+      <span class="works__arrow">→</span>
+    </li>
+    <li class="works__row" data-target="#p-atrium" data-preview="assets/img/atrium-02.jpg">
+      <span class="works__num">03</span>
+      <span class="works__name">Atrium 350-070</span>
+      <span class="works__loc">Dubai, UAE</span>
+      <span class="works__year">2024</span>
+      <span class="works__arrow">→</span>
+    </li>
+    <li class="works__row" data-target="#p-khun" data-preview="assets/img/khun-01.jpg">
+      <span class="works__num">04</span>
+      <span class="works__name">Khun Pa Lo Villa</span>
+      <span class="works__loc">Phuket, TH</span>
+      <span class="works__year">2023</span>
+      <span class="works__arrow">→</span>
+    </li>
+  </ul>
+
+  <div class="works__floater" id="works-floater" aria-hidden="true">
+    <img alt="" decoding="async">
+  </div>
+</section>
+
+<!-- ============================ PROJECT 01 — SMETANOVA ============================ -->
+<section class="project project--dark" id="p-smetanova" data-screen-label="04 Project Smetanova">
+  <div class="project__inner">
+    <div class="project__title-bg" aria-hidden="true">SMETANOVA</div>
+    <aside class="project__meta">
+      <span class="project__tag">— Project 01 / 04</span>
+      <h3 class="project__name">
+        Smetanova<br>Residence
+      </h3>
+      <dl class="project__data">
+        <div><dt>Location</dt><dd>Bratislava, Slovakia</dd></div>
+        <div><dt>Year</dt><dd>2022 — 2024</dd></div>
+        <div><dt>Programme</dt><dd>Private residence</dd></div>
+        <div><dt>Area</dt><dd>640 m²</dd></div>
+        <div><dt>Status</dt><dd>Completed</dd></div>
+      </dl>
+      <p class="project__body">
+        Set on a wooded slope facing the castle, the house is a soft-edged volume of fluted glass and chalk-white render. Curtain-light filters through ribbed façades by day; at dusk it reads as a single warm lantern above the old town.
+      </p>
+      <a href="#contact" class="project__link" data-cursor="link"><span>Enquire about a residence</span><i>→</i></a>
+    </aside>
+
+    <div class="project__strip" data-strip>
+      <div class="project__strip-track" data-strip-track>
+        <figure class="shot shot--portrait"><img src="assets/img/smetanova-01.jpg" alt="Smetanova Residence — exterior dusk"></figure>
+        <figure class="shot shot--portrait"><img src="assets/img/smetanova-02.jpg" alt="Smetanova Residence — façade detail"></figure>
+        <figure class="shot shot--wide"><img src="assets/img/smetanova-04.jpg" alt="Smetanova Residence — daylight"></figure>
+        <figure class="shot shot--portrait"><img src="assets/img/smetanova-03.jpg" alt="Smetanova Residence — living room"></figure>
+        <figure class="shot shot--wide"><img src="assets/img/smetanova-06.jpg" alt="Smetanova Residence — interior view of castle"></figure>
+        <figure class="shot shot--portrait"><img src="assets/img/smetanova-05.jpg" alt="Smetanova Residence — evening façade"></figure>
+      </div>
+      <div class="project__strip-cue">
+        <button class="project__nav" data-strip-prev aria-label="Previous image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 L8 12 L15 19" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+        <button class="project__nav" data-strip-next aria-label="Next image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5 L16 12 L9 19" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+        <span>scroll · drag · swipe</span>
+        <div class="project__strip-bar"><span data-strip-bar></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PROJECT 02 — CLIFF ============================ -->
+<section class="project project--light" id="p-cliff" data-screen-label="05 Project Cliff House">
+  <div class="project__inner">
+    <div class="project__title-bg project__title-bg--light" aria-hidden="true">H&nbsp;SEVEN</div>
+    <aside class="project__meta">
+      <span class="project__tag">— Project 02 / 04</span>
+      <h3 class="project__name">
+        Cliff House<br>H&nbsp;Seven
+      </h3>
+      <dl class="project__data">
+        <div><dt>Location</dt><dd>Adriatic Coast, HR</dd></div>
+        <div><dt>Year</dt><dd>2025 (in&nbsp;construction)</dd></div>
+        <div><dt>Programme</dt><dd>Off-grid retreat</dd></div>
+        <div><dt>Area</dt><dd>210 m² + cantilevers</dd></div>
+        <div><dt>Status</dt><dd>Active site</dd></div>
+      </dl>
+      <p class="project__body">
+        A solar-powered cabin cantilevered from the cliff edge, anchored by two illuminated polycarbonate towers. The plan reduces a home to its essentials — bed, fire, view — and lets the sea do everything else.
+      </p>
+      <a href="#contact" class="project__link" data-cursor="link"><span>Discuss a retreat</span><i>→</i></a>
+    </aside>
+
+    <div class="project__strip" data-strip>
+      <div class="project__strip-track" data-strip-track>
+        <figure class="shot shot--portrait"><img src="assets/img/cliff-02.jpg" alt="Cliff House H7 — overall view"></figure>
+        <figure class="shot shot--wide"><img src="assets/img/cliff-01.jpg" alt="Cliff House H7 — frontal daylight"></figure>
+        <figure class="shot shot--portrait"><img src="assets/img/cliff-03.jpg" alt="Cliff House H7 — dawn"></figure>
+        <figure class="shot shot--wide"><img src="assets/img/cliff-04.jpg" alt="Cliff House H7 — solar panels deployed"></figure>
+        <figure class="shot shot--portrait"><img src="assets/img/cliff-05.jpg" alt="Cliff House H7 — far view"></figure>
+      </div>
+      <div class="project__strip-cue">
+        <button class="project__nav" data-strip-prev aria-label="Previous image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 L8 12 L15 19" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+        <button class="project__nav" data-strip-next aria-label="Next image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5 L16 12 L9 19" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+        <span>scroll · drag · swipe</span>
+        <div class="project__strip-bar"><span data-strip-bar></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PROJECT 03 — ATRIUM ============================ -->
+<section class="project project--dark" id="p-atrium" data-screen-label="06 Project Atrium">
+  <div class="project__inner">
+    <div class="project__title-bg" aria-hidden="true">ATRIUM</div>
+    <aside class="project__meta">
+      <span class="project__tag">— Project 03 / 04</span>
+      <h3 class="project__name">
+        Atrium<br>350&nbsp;–&nbsp;070
+      </h3>
+      <dl class="project__data">
+        <div><dt>Location</dt><dd>Dubai Hills, UAE</dd></div>
+        <div><dt>Year</dt><dd>2023 — 2024</dd></div>
+        <div><dt>Programme</dt><dd>Family villa, 6&nbsp;BR</dd></div>
+        <div><dt>Area</dt><dd>1,250 m²</dd></div>
+        <div><dt>Status</dt><dd>Completed</dd></div>
+      </dl>
+      <p class="project__body">
+        A villa organised around a planted, full-height atrium — a cool, shaded courtyard that draws the desert sky inside. Veiled timber gates, walnut volumes and sheer drapery dial the climate down a register.
+      </p>
+      <a href="#contact" class="project__link" data-cursor="link"><span>Enquire about a residence</span><i>→</i></a>
+    </aside>
+
+    <div class="project__strip" data-strip>
+      <div class="project__strip-track" data-strip-track>
+        <figure class="shot shot--wide"><img src="assets/img/atrium-04.jpg" alt="Atrium 350-070 — interior courtyard with cacti"></figure>
+        <figure class="shot shot--wide"><img src="assets/img/atrium-05.jpg" alt="Atrium 350-070 — atrium lounge"></figure>
+        <figure class="shot shot--portrait"><img src="assets/img/atrium-02.jpg" alt="Atrium 350-070 — rear garden"></figure>
+        <figure class="shot shot--wide"><img src="assets/img/atrium-03.jpg" alt="Atrium 350-070 — terrace view"></figure>
+      </div>
+      <div class="project__strip-cue">
+        <button class="project__nav" data-strip-prev aria-label="Previous image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 L8 12 L15 19" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+        <button class="project__nav" data-strip-next aria-label="Next image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5 L16 12 L9 19" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+        <span>scroll · drag · swipe</span>
+        <div class="project__strip-bar"><span data-strip-bar></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PROJECT 04 — KHUN ============================ -->
+<section class="project project--light" id="p-khun" data-screen-label="07 Project Khun Pa Lo">
+  <div class="project__inner">
+    <div class="project__title-bg project__title-bg--light" aria-hidden="true">KHUN&nbsp;PA&nbsp;LO</div>
+    <aside class="project__meta">
+      <span class="project__tag">— Project 04 / 04</span>
+      <h3 class="project__name">
+        Khun&nbsp;Pa&nbsp;Lo<br>Villa
+      </h3>
+      <dl class="project__data">
+        <div><dt>Location</dt><dd>Phuket, Thailand</dd></div>
+        <div><dt>Year</dt><dd>2022 — 2023</dd></div>
+        <div><dt>Programme</dt><dd>Holiday villa</dd></div>
+        <div><dt>Area</dt><dd>490 m² + pool deck</dd></div>
+        <div><dt>Status</dt><dd>Completed</dd></div>
+      </dl>
+      <p class="project__body">
+        A long, low pavilion under a deep tropical hip-roof, slipped between brick garden walls and the jungle behind. Teak slats, lime brick and water meet at every threshold — interior and outside trade places throughout the day.
+      </p>
+      <a href="#contact" class="project__link" data-cursor="link"><span>Discuss a tropical commission</span><i>→</i></a>
+    </aside>
+
+    <div class="project__strip" data-strip>
+      <div class="project__strip-track" data-strip-track>
+        <figure class="shot shot--wide"><img src="assets/img/khun-03.jpg" alt="Khun Pa Lo Villa — pool and pavilion"></figure>
+        <figure class="shot shot--portrait"><img src="assets/img/khun-01.jpg" alt="Khun Pa Lo Villa — entry façade"></figure>
+        <figure class="shot shot--wide"><img src="assets/img/khun-04.jpg" alt="Khun Pa Lo Villa — terrace and planting"></figure>
+        <figure class="shot shot--portrait"><img src="assets/img/khun-05.jpg" alt="Khun Pa Lo Villa — covered walkway"></figure>
+        <figure class="shot shot--wide"><img src="assets/img/khun-02.jpg" alt="Khun Pa Lo Villa — back garden"></figure>
+      </div>
+      <div class="project__strip-cue">
+        <button class="project__nav" data-strip-prev aria-label="Previous image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 L8 12 L15 19" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+        <button class="project__nav" data-strip-next aria-label="Next image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5 L16 12 L9 19" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+        <span>scroll · drag · swipe</span>
+        <div class="project__strip-bar"><span data-strip-bar></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ STUDIO ============================ -->
+<section class="studio" id="studio" data-screen-label="08 Studio">
+  <div class="studio__head">
+    <div class="works__index">
+      <span>—— 02</span>
+      <span>Studio</span>
+    </div>
+    <h2 class="studio__h">
+      <span class="reveal-line"><span>A small studio</span></span>
+      <span class="reveal-line"><span>with a&nbsp;long&nbsp;memory.</span></span>
+    </h2>
+  </div>
+
+  <div class="studio__grid">
+    <figure class="studio__portrait">
+      <img src="assets/img/founder.jpg" alt="Ing. arch. Peter Kopjak, founding architect" data-parallax="0.08">
+      <figcaption>
+        <span>Ing. arch. Peter Kopjak</span>
+        <span>Founding architect</span>
+      </figcaption>
+    </figure>
+    <div class="studio__copy">
+      <p class="studio__lead">
+        Founded in 2008, Concept Architects has remained deliberately compact — never more than twelve people, never more than seven live projects.
+      </p>
+      <p>
+        Every commission is led personally by Peter from first sketch to handover key. We don't subcontract design, we don't repeat plans, and we don't take on more than we can resolve at full fidelity.
+      </p>
+      <p>
+        Our clients come to us because they have already seen the other studios. They stay because the conversation is honest, the drawings are accurate, and the buildings — when they're finally inhabited — feel inevitable.
+      </p>
+      <ul class="studio__bullets">
+        <li><span>—</span>Independently owned, debt-free, employee-led.</li>
+        <li><span>—</span>Bilingual practice: Slovak / English, working in EN-US drawings.</li>
+        <li><span>—</span>Network of trusted contractors across CEE, the Gulf and SE Asia.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ NUMBERS ============================ -->
+<section class="numbers" data-screen-label="09 Numbers">
+  <ul>
+    <li>
+      <span class="numbers__n" data-count="18">00</span>
+      <span class="numbers__l">Years of practice</span>
+    </li>
+    <li>
+      <span class="numbers__n" data-count="64">00</span>
+      <span class="numbers__l">Houses delivered</span>
+    </li>
+    <li>
+      <span class="numbers__n" data-count="11">00</span>
+      <span class="numbers__l">Countries built in</span>
+    </li>
+    <li>
+      <span class="numbers__n" data-count="7">0</span>
+      <span class="numbers__l">Active commissions</span>
+    </li>
+  </ul>
+</section>
+
+<!-- ============================ APPROACH ============================ -->
+<section class="approach" id="approach" data-screen-label="10 Approach">
+  <div class="works__head">
+    <div class="works__index">
+      <span>—— 03</span>
+      <span>Approach</span>
+    </div>
+    <h2 class="approach__h">
+      <span class="reveal-line"><span>Five conversations,</span></span>
+      <span class="reveal-line"><span>then a&nbsp;house.</span></span>
+    </h2>
+  </div>
+
+  <ol class="approach__steps">
+    <li>
+      <span class="approach__step">01</span>
+      <h4>Brief</h4>
+      <p>A long, slow afternoon at your existing home, or where you'd like the new one to stand. We listen more than we draw.</p>
+    </li>
+    <li>
+      <span class="approach__step">02</span>
+      <h4>Concept</h4>
+      <p>Two or three radically different propositions, built as physical models and atmosphere boards. One is chosen, not designed by committee.</p>
+    </li>
+    <li>
+      <span class="approach__step">03</span>
+      <h4>Resolution</h4>
+      <p>Full design development in-house: structure, climate, every joint detailed by the same hand that drew the concept.</p>
+    </li>
+    <li>
+      <span class="approach__step">04</span>
+      <h4>Site</h4>
+      <p>We're on site weekly. Site decisions live with the architect, not the contractor's commercial lead.</p>
+    </li>
+    <li>
+      <span class="approach__step">05</span>
+      <h4>Aftercare</h4>
+      <p>A five-year relationship: we return for the snag walk, the first winter, the second summer, the day you change the planting scheme.</p>
+    </li>
+  </ol>
+</section>
+
+<!-- ============================ CONTACT ============================ -->
+<section class="contact" id="contact" data-screen-label="11 Contact">
+  <div class="contact__inner">
+    <p class="contact__pre">— Let's begin a conversation</p>
+    <h2 class="contact__h">
+      <a href="mailto:studio@conceptarchitects.com" data-cursor="cta" class="contact__mail">
+        <span class="reveal-line"><span>studio@</span></span>
+        <span class="reveal-line"><span>conceptarchitects</span></span>
+        <span class="reveal-line"><span>.com&nbsp;<i>→</i></span></span>
+      </a>
+    </h2>
+
+    <div class="contact__grid">
+      <div>
+        <h5>Bratislava — Atelier</h5>
+        <p>Smetanova 7<br>811 03 Bratislava<br>Slovakia</p>
+        <p><a href="tel:+421900000000">+421 (0) 900 000 000</a></p>
+      </div>
+      <div>
+        <h5>Dubai — Liaison</h5>
+        <p>DIFC Gate Village<br>Building 4, Level 7<br>UAE</p>
+        <p><a href="tel:+97140000000">+971 4 000 0000</a></p>
+      </div>
+      <div>
+        <h5>Press &amp; speaking</h5>
+        <p><a href="mailto:press@conceptarchitects.com">press@conceptarchitects.com</a></p>
+        <p>Monograph available on request.</p>
+      </div>
+      <div>
+        <h5>Currently</h5>
+        <p>Reviewing commissions for Spring '27 onward.</p>
+        <p>We accept one new residence per quarter.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="foot">
+  <div class="foot__rule"></div>
+  <div class="foot__row">
+    <span>© Concept Architects, 2008 — 2026.</span>
+    <span>Designed in-house. Built with restraint.</span>
+    <a href="#top" data-cursor="link">Back to top ↑</a>
+  </div>
+  <div class="foot__wordmark" aria-hidden="true">
+    <span>CONCEPT</span><span>ARCHITECTS</span>
+  </div>
+</footer>
+
+</main>
+</div>
+</div>
+
+<script src="assets/site.js"></script>
+</body>
+</html>

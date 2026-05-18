@@ -1,0 +1,35 @@
+# Screenshots from chrome-devtools MCP
+.preview-*.png
+.preview-*.jpeg
+.preview-*.jpg
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+build/
+.turbo/
+.cache/
+
+# Env
+.env
+.env.local
+.env*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Claude
+.claude/settings.local.json
