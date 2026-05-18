@@ -191,9 +191,16 @@ body.has-cursor .cursor { display: block; }
   grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 24px;
-  color: var(--paper);
-  mix-blend-mode: difference;
-  transition: transform 0.5s var(--ease-out);
+  color: #fff;
+  transition: transform 0.5s var(--ease-out), color 0.4s var(--ease-out);
+  text-shadow: 0 1px 24px rgba(0,0,0,0.35);
+}
+.nav::before {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0) 100%);
+  pointer-events: none;
+  z-index: -1;
 }
 .nav.is-hidden { transform: translateY(-110%); }
 
