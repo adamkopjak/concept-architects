@@ -30,11 +30,7 @@ export default function Nav() {
     <>
       <header className={`nav${hidden ? " is-hidden" : ""}`} id="nav">
         <a href="#top" className="nav__brand" data-cursor="brand" aria-label="Concept Architects — home">
-          <span className="nav__a" aria-hidden="true">A</span>
-          <span className="nav__wordmark">
-            <span>Concept</span>
-            <span>Architects</span>
-          </span>
+          <span className="nav__logo" aria-hidden="true" />
         </a>
         <nav className="nav__links" aria-label="Primary">
           <a href="#works" data-cursor="link"><span>01</span>Works</a>
