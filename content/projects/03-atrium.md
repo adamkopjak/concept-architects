@@ -1,9 +1,9 @@
 ---
 slug: atrium
 order: 3
-name: Atrium 350-070
-nameHtml: "Atrium<br>350&nbsp;–&nbsp;070"
-titleBg: ATRIUM
+name: House of the Future
+nameHtml: "House of<br>the&nbsp;Future"
+titleBg: "HOUSE OF FUTURE"
 location: "Dubai, UAE"
 locationFull: "Dubai Hills, UAE"
 year: "2024"
