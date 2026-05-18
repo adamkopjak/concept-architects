@@ -1,0 +1,56 @@
+# Decap CMS configuration
+# For local development: run `npm run cms` (proxies to disk) and visit http://localhost:3000/admin
+# For production: replace `local_backend` with a git-gateway / GitHub OAuth setup once deployed.
+
+local_backend: true
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/assets/img
+public_folder: /assets/img
+
+collections:
+  - name: projects
+    label: Projects
+    label_singular: Project
+    folder: content/projects
+    create: true
+    delete: true
+    slug: "{{order}}-{{slug}}"
+    sortable_fields: [order]
+    summary: "{{order}} · {{name}} — {{location}}"
+    fields:
+      - { name: order, label: "Order (controls position on the site)", widget: number, value_type: int, min: 1 }
+      - { name: slug, label: "Slug (URL-safe id, e.g. \"smetanova\")", widget: string }
+      - { name: name, label: "Project name", widget: string }
+      - { name: nameHtml, label: "Display name (HTML, for line break)", widget: string, required: false, hint: "Use <br> for a line break. Leave blank to use Project name." }
+      - { name: titleBg, label: "Large background title", widget: string, hint: "Uppercase background type behind the gallery, e.g. SMETANOVA" }
+      - { name: location, label: "Location (short, for the list)", widget: string }
+      - { name: locationFull, label: "Location (full, for the detail card)", widget: string }
+      - { name: year, label: "Year (short)", widget: string }
+      - { name: yearFull, label: "Year (full, e.g. \"2022 — 2024\")", widget: string }
+      - { name: programme, label: "Programme", widget: string }
+      - { name: area, label: "Area", widget: string }
+      - { name: status, label: "Status", widget: string }
+      - name: theme
+        label: Section theme
+        widget: select
+        options: ["dark", "light"]
+        default: dark
+      - { name: ctaLabel, label: "CTA button label", widget: string, default: "Enquire about a residence" }
+      - { name: preview, label: "Preview image (shown when hovering the list)", widget: image }
+      - name: gallery
+        label: Gallery
+        widget: list
+        summary: "{{fields.alt}} ({{fields.layout}})"
+        fields:
+          - { name: src, label: "Image", widget: image }
+          - { name: alt, label: "Alt text", widget: string }
+          - name: layout
+            label: Layout
+            widget: select
+            options: ["wide", "portrait"]
+            default: portrait
+      - { name: body, label: "Description", widget: text }
