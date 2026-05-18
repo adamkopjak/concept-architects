@@ -23,7 +23,7 @@ export default function Home() {
       <Cursor />
       <Nav />
       <main id="top">
-        <Hero />
+        <Hero projectCount={projects.length} />
         <Ticker />
         <Manifesto />
         <WorksList projects={projects} />

@@ -1,6 +1,6 @@
 import Clock from "./Clock";
 
-export default function Hero() {
+export default function Hero({ projectCount = 4 }: { projectCount?: number }) {
   return (
     <section className="hero" data-screen-label="01 Hero">
       <div className="hero__media">
@@ -42,7 +42,7 @@ export default function Hero() {
       </a>
 
       <div className="hero__index">
-        <span>01</span> / <span>04</span>
+        <span>01</span> / <span>{String(projectCount).padStart(2, "0")}</span>
       </div>
     </section>
   );
